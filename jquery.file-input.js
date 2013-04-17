@@ -18,6 +18,7 @@
 
             if (!$this.attr('id')) {
                 inputId = 'input-' + inputName;
+                $this.attr('id', inputId);
             } else {
                 inputId = $this.attr('id');
             }
